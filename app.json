@@ -7,5 +7,6 @@
       "**/*"
     ]
   },
+  "plugins": ["@react-native-mapbox-gl/maps"],
   "name": "ppg-cockpit"
 }
