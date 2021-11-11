@@ -8,6 +8,8 @@ import {
   Routes,
 } from "react-router-native";
 
+import { t } from "react-native-tailwindcss";
+
 import Home from "./views/Home.jsx";
 import Settings from "./views/Settings.jsx";
 
@@ -18,7 +20,7 @@ export default function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/settings" element={<Settings />} />
       </Routes>
-      <View>
+      <View style={[t.bgRed200]}>
         <Link to="/">
           <Text>Home</Text>
         </Link>
@@ -29,12 +31,3 @@ export default function App() {
     </Router>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
