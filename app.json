@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "ppg-cockpit",
+    "slug": "ppg-cockpit",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "ppg-cockpit"
+}
