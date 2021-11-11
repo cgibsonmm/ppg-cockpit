@@ -4,7 +4,7 @@ import { Link } from "react-router-native";
 
 const Settings = () => {
   return (
-    <View style={styles.container}>
+    <View style={null}>
       <Text>Settings</Text>
       <Link to="/">
         <Text>Home</Text>
@@ -14,12 +14,3 @@ const Settings = () => {
 };
 
 export default Settings;
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});

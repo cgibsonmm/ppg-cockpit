@@ -4,7 +4,7 @@ import { Link } from "react-router-native";
 
 export default function Home() {
   return (
-    <View style={styles.container}>
+    <View style={null}>
       <Text>Home</Text>
       <Link to="/settings">
         <Text>Settings</Text>
